@@ -11,7 +11,7 @@ int main() {
     cin >> d;
 
     if (d != 0) {
-        cout << "d not equal to zero so alls g" << "\n";
+        cout << "d not equal to zero so alls g\n";
         result = n / d; 
         cout << n << " / " << d << " is " << result;
     }
