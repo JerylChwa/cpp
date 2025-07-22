@@ -3,12 +3,12 @@ using namespace std;
 
 
 int main() {
-    int a, b, c;
+    int count;
 
-    a = 2;
-    b = 3;
-
-    if (a < b) cout << "a is less than b\n";
+    for (count=1; count <= 100; count++) {
+        cout << count << "\n";
+    }
 
     return 0;
+
 }
