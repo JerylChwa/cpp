@@ -15,7 +15,7 @@ int main() {
     cout << "enter fifth: \n";
     cin >> num5;
 
-    average = (num1 + num2 + num3 + num4 + num5) / 5;
+    average = (num1 + num2 + num3 + num4 + num5) / 5.0;
     cout << "Average is " << average;
 
     return 0;
