@@ -1,10 +1,12 @@
 #include <iostream>
+#include <cstdlib>
 using namespace std;
 
 int main() {
     double f; // holds the length in feet
     double m; // holds the conversion to meters
     int counter;
+    int test;
 
     counter = 0;
 
@@ -16,8 +18,10 @@ int main() {
             cout << "\n";
             counter = 0;
         }
-    }
 
+    }
+    test = -10;
+    cout << abs(test);
     return 0;
 
 }
